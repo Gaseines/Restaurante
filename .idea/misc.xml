@@ -3,8 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/activity_main.xml" value="0.5170257123002084" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/activity_cartao.xml" value="0.3734375" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/activity_endereco.xml" value="0.3875" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/activity_main_carrinho.xml" value="0.3875" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/activity_main_endereco.xml" value="0.3875" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/activity_main_perfil.xml" value="0.3840991223541559" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/activity_perfil.xml" value="0.3875" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/activity_tela_perfil.xml" value="0.3875" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/activity_tela_perfil2.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/bt_editar_perfil.xml" value="0.3734375" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/endereco_fragment_listar.xml" value="0.3734375" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/endereco_fragment_main.xml" value="0.3734375" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/fragment_endereco_listar.xml" value="0.3875" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/letra_borda.xml" value="0.3734375" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/menu.xml" value="0.3734375" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/menu_borda.xml" value="0.3734375" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/perfil.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/scroll_botao.xml" value="0.3734375" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/select_view.xml" value="0.3875" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/style_botoes_crud.xml" value="0.3734375" />
       </map>
     </option>
   </component>

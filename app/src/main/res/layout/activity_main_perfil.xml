@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPerfil">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".MainActivity">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/menu_backgroud">
+
+            //HOME PADRAO
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/style_borda_padrao" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="5sp"
+                android:layout_marginRight="60dp"
+                android:background="@color/vermelho1"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:src="@drawable/icone_carrinho" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/botaoPerfil"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="5sp"
+                android:layout_marginRight="15dp"
+                android:background="@color/vermelho1"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:src="@drawable/icone_perfil" />
+            <TextView
+                android:id="@+id/restauranteHome"
+                android:layout_width="217dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/caladea"
+                android:text="Restaurante"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                android:textStyle="bold|italic" />
+
+            //HOME PADRÃO
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="411dp"
+            android:layout_height="612dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/perfilTxt"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="top|center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/caladea"
+                android:text="Perfil"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/nomePerfilTxt"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/caladea"
+                android:text="Nome:"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/gabrielTxt"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="155dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/caladea"
+                android:text="Gabriel"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/sobrenomePerfilTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="160dp"
+                android:fontFamily="@font/caladea"
+                android:text="Sobrenome:"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/nunesTxt"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="160dp"
+                android:fontFamily="@font/caladea"
+                android:text="Nunes"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/enderecoPerfilTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="220dp"
+                android:fontFamily="@font/caladea"
+                android:text="Endereço:"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/enderecoSelect"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="220dp"
+                android:background="@drawable/style_select_view"
+                android:fontFamily="@font/caladea"
+                android:gravity="center"
+                android:text="N/A"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btEditEndereco"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="220dp"
+                android:backgroundTint="@color/vermelho1"
+                android:text="Editar"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/cartaoPerfilTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="290dp"
+                android:fontFamily="@font/caladea"
+                android:text="Cartão:"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/cartaoSelect"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="290dp"
+                android:background="@drawable/style_select_view"
+                android:fontFamily="@font/caladea"
+                android:gravity="center"
+                android:text="N/A"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bt_edit_cartao"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="290dp"
+                android:backgroundTint="@color/vermelho1"
+                android:text="Editar"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <View
+                android:id="@+id/linhaNome"
+                android:layout_width="200dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="130dp"
+                android:background="@color/black" />
+
+            <View
+                android:id="@+id/linhaSobrenome"
+                android:layout_width="200dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="190dp"
+                android:background="@color/black" />
+
+            <ImageView
+                android:layout_width="311dp"
+                android:layout_height="312dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="60dp"
+                android:src="@drawable/fundo_perfil" />
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
