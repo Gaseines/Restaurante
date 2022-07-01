@@ -10,16 +10,6 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/textView5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:textSize="30dp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:text="deu certo" />
-
         <ListView
             android:id="@+id/list_view_listar_endereco"
             android:layout_width="match_parent"

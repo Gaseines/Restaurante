@@ -19,6 +19,7 @@
             android:layout_gravity="center"
             android:text="Endereços"
             android:textColor="@color/black"
+            android:fontFamily="@font/caladea"
             android:textSize="40dp"
             android:textStyle="bold|italic" />
 
@@ -27,9 +28,11 @@
             android:layout_height="wrap_content">
 
             <Button
+                android:id="@+id/listarEndereco"
                 android:layout_width="100dp"
                 android:layout_height="48dp"
                 android:layout_marginLeft="50dp"
+                android:textStyle="bold"
                 android:layout_marginTop="10dp"
                 android:backgroundTint="@color/verde"
                 android:text="Listar"
@@ -37,9 +40,11 @@
                 app:cornerRadius="10dp" />
 
             <Button
+                android:id="@+id/adicionarEndereco"
                 android:layout_width="100dp"
                 android:layout_height="48dp"
                 android:layout_marginLeft="100dp"
+                android:textStyle="bold"
                 android:layout_marginTop="10dp"
                 android:backgroundTint="@color/verde"
                 android:text="Adicionar"
