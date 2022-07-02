@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical">
 
     <LinearLayout
@@ -12,7 +13,7 @@
         android:layout_marginTop="10dp">
 
         <TextView
-            android:id="@+id/textViewIdListarEndereco"
+            android:id="@+id/textViewIdListarCartao"
             android:layout_width="33dp"
             android:layout_height="33dp"
             android:layout_gravity="center"
@@ -27,14 +28,14 @@
             android:id="@+id/textView7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Endereço: "
+            android:text="Cartão: "
             android:textColor="@color/black"
             android:textSize="30dp"
 
             android:textStyle="bold|italic" />
 
         <TextView
-            android:id="@+id/textViewNomeListarEndereco"
+            android:id="@+id/textViewNumeroListarCartao"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
@@ -49,6 +50,7 @@
         android:layout_height="2dp"
 
         android:background="@color/black"/>
+
 
 
 </LinearLayout>

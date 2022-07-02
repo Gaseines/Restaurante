@@ -54,7 +54,7 @@
                         android:textSize="25dp" />
 
                     <EditText
-                        android:id="@+id/bandeiraCartao"
+                        android:id="@+id/nomeCartao"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:ems="10"
@@ -171,7 +171,7 @@
                         android:textSize="25dp" />
 
                     <EditText
-                        android:id="@+id/nomeCartao"
+                        android:id="@+id/titularCartao"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:ems="10"

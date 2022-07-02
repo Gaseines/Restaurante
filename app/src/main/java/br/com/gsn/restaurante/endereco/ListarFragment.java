@@ -26,7 +26,6 @@ public class ListarFragment extends Fragment {
 
 
     private DatabaseHelper databaseHelper;
-    private Endereco e;
 
 
     public ListarFragment() {

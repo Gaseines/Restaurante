@@ -11,8 +11,10 @@
         android:orientation="vertical">
 
         <ListView
-            android:id="@+id/list_view_listar_endereco"
+            android:id="@+id/list_view_listar_cartao"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </LinearLayout>
+
+
 </FrameLayout>
