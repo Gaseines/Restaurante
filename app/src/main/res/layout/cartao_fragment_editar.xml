@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".endereco.AdicionarFragment">
+    tools:context=".cartao.EditarFragment">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -15,17 +15,19 @@
             android:layout_height="wrap_content"
             android:orientation="vertical" >
 
+
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="40dp"
                 android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textStyle="bold|italic"
                 android:layout_marginTop="30dp"
+                android:layout_gravity="center"
                 android:fontFamily="@font/caladea"
-                android:text="Editar" />
+                android:text="Editar cartão"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                android:textStyle="bold|italic" />
 
             <FrameLayout
                 android:layout_width="match_parent"
@@ -43,16 +45,16 @@
                     >
 
                     <TextView
-                        android:id="@+id/nome"
+                        android:id="@+id/cartao"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="6dp"
-                        android:text="Nome:"
+                        android:text="Cartão:"
                         android:textColor="@color/black"
                         android:textSize="25dp" />
 
                     <EditText
-                        android:id="@+id/nomeEndereco"
+                        android:id="@+id/bandeiraCartao"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:ems="10"
@@ -86,17 +88,17 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="6dp"
-                        android:text="Rua:"
+                        android:text="Número do cartão:"
                         android:textColor="@color/black"
                         android:textSize="25dp" />
 
                     <EditText
-                        android:id="@+id/ruaEndereco"
+                        android:id="@+id/numeroCartao"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:ems="10"
                         android:textColor="@color/black"
-                        android:inputType="textPersonName"
+                        android:inputType="number"
                         android:padding="6dp"
                         android:layout_marginRight="6dp"
                         android:textSize="25dp"
@@ -125,17 +127,17 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="6dp"
-                        android:text="Bairro:"
+                        android:text="Data de validade:"
                         android:textColor="@color/black"
                         android:textSize="25dp" />
 
                     <EditText
-                        android:id="@+id/bairroEndereco"
+                        android:id="@+id/dataCartao"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:ems="10"
                         android:textColor="@color/black"
-                        android:inputType="textPersonName"
+                        android:inputType="date"
                         android:padding="6dp"
                         android:layout_marginRight="6dp"
                         android:textSize="25dp"
@@ -164,12 +166,12 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="6dp"
-                        android:text="Número:"
+                        android:text="Nome do títular:"
                         android:textColor="@color/black"
                         android:textSize="25dp" />
 
                     <EditText
-                        android:id="@+id/numeroEndereco"
+                        android:id="@+id/nomeCartao"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:ems="10"
@@ -203,17 +205,18 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="6dp"
-                        android:text="Adicional:"
+                        android:text="cod:"
                         android:textColor="@color/black"
                         android:textSize="25dp" />
 
                     <EditText
-                        android:id="@+id/adicionalEndereco"
+                        android:id="@+id/codCartao"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:ems="10"
+                        android:maxLines="3"
                         android:textColor="@color/black"
-                        android:inputType="textPersonName"
+                        android:inputType="number"
                         android:padding="6dp"
                         android:layout_marginRight="6dp"
                         android:textSize="25dp"
@@ -230,7 +233,6 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/excluirEndereco"
                     android:layout_width="150dp"
                     android:layout_height="58dp"
                     android:layout_marginLeft="25dp"
@@ -242,7 +244,6 @@
                     app:cornerRadius="10dp" />
 
                 <Button
-                    android:id="@+id/EditarEndereco"
                     android:layout_width="150dp"
                     android:layout_height="58dp"
                     android:layout_marginLeft="35dp"

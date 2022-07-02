@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
-    tools:context=".endereco.MainFragment">
-
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".cartao.MainFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,11 +12,11 @@
         android:orientation="vertical">
 
         <TextView
-            android:layout_width="177dp"
+            android:layout_width="131dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
             android:fontFamily="@font/caladea"
-            android:text="Endereços"
+            android:text="Cartões"
             android:textColor="@color/black"
             android:textSize="40dp"
             android:textStyle="bold|italic" />
@@ -28,7 +26,7 @@
             android:layout_height="wrap_content">
 
             <Button
-                android:id="@+id/listarEndereco"
+                android:id="@+id/listarCartao"
                 android:layout_width="100dp"
                 android:layout_height="48dp"
                 android:layout_marginLeft="50dp"
@@ -40,7 +38,7 @@
                 app:cornerRadius="10dp" />
 
             <Button
-                android:id="@+id/adicionarEndereco"
+                android:id="@+id/adicionarCartao"
                 android:layout_width="100dp"
                 android:layout_height="48dp"
                 android:layout_marginLeft="100dp"
@@ -54,15 +52,13 @@
         </LinearLayout>
 
 
-    <FrameLayout
-            android:id="@+id/endereco_fragment"
+        <FrameLayout
+            android:id="@+id/cartao_fragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
         </FrameLayout>
 
     </LinearLayout>
-
-
 
 </FrameLayout>

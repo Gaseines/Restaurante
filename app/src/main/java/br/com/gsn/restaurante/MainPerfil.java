@@ -8,6 +8,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import br.com.gsn.restaurante.cartao.MainCartao;
+import br.com.gsn.restaurante.endereco.MainEndereco;
+
 public class MainPerfil extends AppCompatActivity {
 
     private TextView restaurante;
@@ -45,6 +48,17 @@ public class MainPerfil extends AppCompatActivity {
                 startActivity(ender);
             }
         });
+
+        editCartao=findViewById(R.id.btEditCartao);
+        editCartao.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent cartao = new Intent(MainPerfil.this, MainCartao.class);
+                startActivity(cartao);
+            }
+        });
+
+
 
         getSupportActionBar().hide();
 
