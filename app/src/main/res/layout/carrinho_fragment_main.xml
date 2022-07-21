@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Carrinho.MainFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Carrinho"
+            android:textSize="40dp"
+            android:fontFamily="@font/caladea"
+            android:textStyle="bold|italic"
+            android:textAlignment="center"
+            android:layout_marginTop="30sp"
+            android:textColor="@color/black"/>
+
+        <FrameLayout
+            android:id="@+id/carrinho_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="550dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/vermelho1">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pagar"
+                android:fontFamily="@font/caladea"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:backgroundTint="@color/verde"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total:"
+                android:textColor="@color/black"
+                android:fontFamily="@font/caladea"
+                android:textSize="20dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="97dp"/>
+
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="317dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/caladea"
+                android:text="R$"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+        </FrameLayout>
+    </LinearLayout>
+
+
+</FrameLayout>

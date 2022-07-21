@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sushi.AdicionarSushiVintequatroFragment"
+    android:background="@color/black">
+
+    <FrameLayout
+        android:id="@+id/tradicionalConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="208dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/style_bt_editar_perfil"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/foto"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/vintequatrounidades"
+
+            />
+
+        <TextView
+            android:id="@+id/nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="15dp"
+            android:text="Com 24 unidades"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold|italic"
+
+            />
+
+        <TextView
+            android:id="@+id/preco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="55dp"
+            android:text="R$ 89,90"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btCancelar"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="Cancelar"
+                android:layout_marginTop="140dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/vermelho2"/>
+
+            <Button
+                android:id="@+id/btAdicionar"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="Adicionar"
+                android:layout_marginTop="140dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="20dp"
+                android:backgroundTint="@color/verde"/>
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cardapio.HomeFragment"
+    android:background="@color/vermelho1">
+
+
+
+    <View
+        android:layout_width="270dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="115dp"
+        android:background="@color/black" />
+
+    <View
+        android:layout_width="270dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="175dp"
+        android:background="@color/black" />
+
+    <View
+        android:layout_width="270dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="235dp"
+        android:background="@color/black" />
+
+    <View
+        android:layout_width="270dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="295dp"
+        android:background="@color/black" />
+
+    <View
+        android:layout_width="270dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="355dp"
+        android:background="@color/black" />
+
+    <View
+        android:layout_width="270dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="415dp"
+        android:background="@color/black" />
+
+    <TextView
+        android:id="@+id/horarios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/caladea"
+        android:gravity="center"
+        android:text="Horários"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/segunda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/caladea"
+        android:gravity="left"
+        android:text="Segunda-feira: 09:00 a 20:00"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+
+    <TextView
+        android:id="@+id/terca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="130dp"
+        android:fontFamily="@font/caladea"
+        android:gravity="left"
+        android:text="Terça-feira: Não trabalhamos"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/quarta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="190dp"
+        android:fontFamily="@font/caladea"
+        android:gravity="left"
+        android:text="Quarta-feira: 09:00 a 20:00"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/quinta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="250dp"
+        android:fontFamily="@font/caladea"
+        android:gravity="left"
+        android:text="Quinta-feira: 09:00 a 20:00"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/sexta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="310dp"
+        android:fontFamily="@font/caladea"
+        android:gravity="left"
+        android:text="Sexta-feira: 09:00 a 20:00"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/sabado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="370dp"
+        android:fontFamily="@font/caladea"
+        android:gravity="left"
+        android:text="Sábado: 09:00 a 13:00"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/domingo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="430dp"
+        android:fontFamily="@font/caladea"
+        android:gravity="left"
+        android:text="Domingo: Não trabalhamos"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+</FrameLayout>

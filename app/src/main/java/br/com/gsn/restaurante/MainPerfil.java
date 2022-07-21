@@ -6,16 +6,20 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
-import br.com.gsn.restaurante.cartao.MainCartao;
-import br.com.gsn.restaurante.endereco.MainEndereco;
+import br.com.gsn.restaurante.Cardapio.MainActivity;
+import br.com.gsn.restaurante.Carrinho.MainCarrinho;
+import br.com.gsn.restaurante.Cartao.MainCartao;
+import br.com.gsn.restaurante.Endereco.MainEndereco;
 
 public class MainPerfil extends AppCompatActivity {
 
     private TextView restaurante;
     private Button editEndereco;
     private Button editCartao;
+    private ImageButton botaoCarrinho;
 
 
     @Override
@@ -46,6 +50,15 @@ public class MainPerfil extends AppCompatActivity {
             public void onClick(View v) {
                 Intent ender = new Intent(MainPerfil.this, MainEndereco.class);
                 startActivity(ender);
+            }
+        });
+
+        botaoCarrinho=findViewById(R.id.botaoCarrinho);
+        botaoCarrinho.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent carrinho = new Intent(MainPerfil.this, MainCarrinho.class);
+                startActivity(carrinho);
             }
         });
 

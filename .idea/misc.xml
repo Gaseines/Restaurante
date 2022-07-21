@@ -3,30 +3,59 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/drawable-v24/style_botao_vermelho.xml" value="0.3255" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/drawable/style_bt_editar_perfil.xml" value="0.338" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/drawable/style_scroll_botao.xml" value="0.3715" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/drawable/style_select_view.xml" value="0.3715" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/activity_cartao.xml" value="0.3734375" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/activity_endereco.xml" value="0.3875" />
-        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/activity_main_carrinho.xml" value="0.3875" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/activity_main_carrinho.xml" value="0.4010416666666667" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/activity_main_cartao.xml" value="0.3875" />
-        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/activity_main_endereco.xml" value="0.3875" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/activity_main_endereco.xml" value="0.22" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/activity_main_perfil.xml" value="0.3840991223541559" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/activity_perfil.xml" value="0.3875" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/activity_tela_perfil.xml" value="0.3875" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/activity_tela_perfil2.xml" value="0.20104166666666667" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/bt_editar_perfil.xml" value="0.3734375" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/carrinh_fragment_adicionar_bacon.xml" value="0.159375" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/carrinho_fragment_adicionar.xml" value="0.33" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/carrinho_fragment_adicionar_agua.xml" value="0.33" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/carrinho_fragment_adicionar_alcatra.xml" value="0.25104166666666666" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/carrinho_fragment_adicionar_bacon.xml" value="0.33" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/carrinho_fragment_adicionar_carne.xml" value="0.25" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/carrinho_fragment_adicionar_coca.xml" value="0.3078125" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/carrinho_fragment_adicionar_duplo.xml" value="0.2598958333333333" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/carrinho_fragment_adicionar_legumes.xml" value="0.2765625" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/carrinho_fragment_adicionar_nordeste.xml" value="0.3015625" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/carrinho_fragment_adicionar_portuguesa.xml" value="0.275" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/carrinho_fragment_adicionar_suco.xml" value="0.33" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/carrinho_fragment_adicionar_sushi_dezesseis.xml" value="0.33" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/carrinho_fragment_adicionar_sushi_quatorze.xml" value="0.33" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/carrinho_fragment_adicionar_sushi_vintequatro.xml" value="0.321875" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/carrinho_fragment_adicionar_sushi_vinteum.xml" value="0.3125" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/carrinho_fragment_adicionar_tradicional.xml" value="0.3" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/carrinho_fragment_excluir.xml" value="0.33" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/carrinho_fragment_listar.xml" value="0.33" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/carrinho_fragment_main.xml" value="0.33" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/carrinho_item_list_view.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/cartao_fragment_adicionar.xml" value="0.33" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/cartao_fragment_editar.xml" value="0.3734375" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/cartao_fragment_listar.xml" value="0.3734375" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/cartao_fragment_main.xml" value="0.3875" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/cartao_item_list_view.xml" value="0.3734375" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/endereco_fragment_adicionar.xml" value="0.3875" />
-        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/endereco_fragment_editar.xml" value="0.2555831265508685" />
-        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/endereco_fragment_listar.xml" value="0.3734375" />
-        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/endereco_fragment_main.xml" value="0.25806451612903225" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/endereco_fragment_editar.xml" value="0.33" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/endereco_fragment_listar.xml" value="0.2608089260808926" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/endereco_fragment_main.xml" value="0.2" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/endereco_item_list_view.xml" value="0.25" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/fragment_endereco_listar.xml" value="0.3875" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/home_fragment_bebidas.xml" value="0.33" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/home_fragment_lanches.xml" value="0.25" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/home_fragment_main.xml" value="0.33" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/home_fragment_pasteis.xml" value="0.3359375" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/home_fragment_sushi.xml" value="0.25" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/layout.xml" value="0.15260416666666668" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/letra_borda.xml" value="0.3734375" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/menu.xml" value="0.3734375" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/Restaurante/app/src/main/res/layout/menu_borda.xml" value="0.3734375" />
